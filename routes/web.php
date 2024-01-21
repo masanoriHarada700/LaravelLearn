@@ -52,4 +52,4 @@ Route::delete('/profile', [ProfileController::class, 'destroy'])
     ->name('profile.destroy');
 
 Route::patch('/profile', [ProfileController::class, 'update'])
-    ->name('profile.updat');
+    ->name('profile.update');
